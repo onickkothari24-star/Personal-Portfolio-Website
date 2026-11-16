@@ -19,8 +19,8 @@ Include correct commands if the project requires them.
 
 ## Screenshots
 Add screenshots of the actual completed application:
-![Home Page](screenshots/home.png)
-![Features](screenshots/features.png)
+![Home Page]("C:\Users\onick\OneDrive\Pictures\Screenshots\Screenshot 2026-11-16 154727.png")
+![Features]("C:\Users\onick\OneDrive\Pictures\Screenshots\Screenshot 2026-11-16 160016.png")
 
 ## Live Demo
 Live URL: [Paste the actual Vercel deployment URL]
