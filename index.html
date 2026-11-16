@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onick | Personal Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">Onick</a>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <button id="themeToggle" type="button">
+        Switch to Light Mode
+    </button>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <p class="eyebrow">Computer Science Student</p>
+    <h1>Building practical projects with curiosity and care.</h1>
+    <p class="hero-text">I enjoy learning new technologies and turning ideas into clean, useful software.</p>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I am a computer science student who enjoys learning
+       new technologies and building practical projects.</p>
+  </section>
+
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <p class="section-intro">Core areas I study and apply across coursework and personal projects.</p>
+    <div class="skills-grid">
+      <article class="skill-card">
+        <div class="skill-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M8 4h8l-1.5 12.5L12 20l-2.5-3.5L8 4z"/>
+            <path d="M9 9h6"/>
+          </svg>
+        </div>
+        <h3>Python</h3>
+        <p>Scripting, problem solving, and building data-driven applications.</p>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M8 4h8v16H8z"/>
+            <path d="M8 8h8M8 16h8"/>
+          </svg>
+        </div>
+        <h3>C and C++</h3>
+        <p>Low-level programming, memory concepts, and performance-focused code.</p>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <rect x="3" y="4" width="6" height="6" rx="1"/>
+            <rect x="15" y="4" width="6" height="6" rx="1"/>
+            <rect x="9" y="14" width="6" height="6" rx="1"/>
+            <path d="M6 10v2h12v-2M12 12v2"/>
+          </svg>
+        </div>
+        <h3>Data Structures and Algorithms</h3>
+        <p>Efficient problem solving with arrays, trees, graphs, and complexity analysis.</p>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M4 6h16v12H4z"/>
+            <path d="M4 10h16M8 6v4"/>
+          </svg>
+        </div>
+        <h3>HTML and CSS</h3>
+        <p>Semantic markup and modern styling for responsive, accessible web pages.</p>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <circle cx="12" cy="12" r="3"/>
+            <path d="M12 5v2M12 17v2M5 12h2M17 12h2M7 7l1.5 1.5M15.5 15.5L17 17M17 7l-1.5 1.5M8.5 15.5L7 17"/>
+          </svg>
+        </div>
+        <h3>Artificial Intelligence and Machine Learning</h3>
+        <p>Foundations of intelligent systems, models, and practical ML workflows.</p>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M4 19V5M4 19h16"/>
+            <path d="M8 15v-4M12 15V8M16 15v-6"/>
+          </svg>
+        </div>
+        <h3>Data Analysis</h3>
+        <p>Turning raw data into clear insights through exploration and visualization.</p>
+      </article>
+    </div>
+    <section class="section" id="quiz">
+        <h2>Web Development Quiz</h2>
+        <form id="quizForm">
+          <div class="question">
+            <p>1. What does HTML stand for?</p>
+            <label><input type="radio" name="q1" value="a"> Hyper Text Markup Language</label>
+            <label><input type="radio" name="q1" value="b"> High Text Machine Language</label>
+            <label><input type="radio" name="q1" value="c"> Hyper Tool Multi Language</label>
+          </div>
+          <div class="question">
+            <p>2. Which language styles a webpage?</p>
+            <label><input type="radio" name="q2" value="a"> Python</label>
+            <label><input type="radio" name="q2" value="b"> CSS</label>
+            <label><input type="radio" name="q2" value="c"> SQL</label>
+          </div>
+          <div class="question">
+            <p>3. Which language adds webpage interactivity?</p>
+            <label><input type="radio" name="q3" value="a"> JavaScript</label>
+            <label><input type="radio" name="q3" value="b"> HTML</label>
+            <label><input type="radio" name="q3" value="c"> XML</label>
+          </div>
+          <div class="question">
+            <p>4. Which HTML tag creates a hyperlink?</p>
+            <label><input type="radio" name="q4" value="a"> &lt;p&gt;</label>
+            <label><input type="radio" name="q4" value="b"> &lt;img&gt;</label>
+            <label><input type="radio" name="q4" value="c"> &lt;a&gt;</label>
+          </div>
+          <div class="question">
+            <p>5. Which CSS property changes text colour?</p>
+            <label><input type="radio" name="q5" value="a"> font-size</label>
+            <label><input type="radio" name="q5" value="b"> color</label>
+            <label><input type="radio" name="q5" value="c"> padding</label>
+          </div>
+          <button type="submit">Submit Quiz</button>
+        </form>
+        <p id="quizResult" aria-live="polite"></p>
+      </section>
+      
+      <script src="script.js"></script>
+  </section>
+</body>
+</html>
